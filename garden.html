@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.5.2/jquery.mockjax.js"></script>
+    <script src="custom.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Home Automation 1.0</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Living Room</a></li>
+          <li class="active"><a href="garden.html">Garden</a></li>
+          <li><a href="bedroom.html">Bedroom</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class="main-content">
+      <div class="row">
+                  <div class="col-md-10 col-md-offset-1">
+                      <div class="page-header">
+                          <h2>Garden Lights </h2>
+                      </div>
+                      <div>
+                         <button type="button" id="garden_lights" 
+                                 data-turnon-text="Switching on..." 
+                                 data-turnoff-text="Switching off..." 
+                                 data-on-text="Lights are ON"
+                                 data-off-text="Lights are OFF" 
+                                 class="btn btn-default">
+                         </button>
+                      </div>
+                      <div class="page-header">
+                          <h2>Garage door </h2>
+                      </div>
+                      <div>
+                         <button type="button" id="garage_door" 
+                                 data-turnon-text="Opening door..." 
+                                 data-turnoff-text="Closing door..." 
+                                 data-on-text="Garage door is open."
+                                 data-off-text="Garage door is closed." 
+                                 class="btn btn-default">
+                         </button>
+                      </div>
+                      <br/>
+                      <br/>
+                      <br/>
+                  </div>
+      </div>
+    </div>
+</body>
+</html>
